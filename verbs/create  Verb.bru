@@ -1,0 +1,25 @@
+meta {
+  name: create  Verb
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseURL}}/api/verbs
+  body: json
+  auth: none
+}
+
+body:json {
+  { 
+    
+        "simpler_fom": "API 45 CREATED",
+      "type_verb": "I",
+      "third_person": "TESTE AA",
+      "simple_past": "TEST",
+      "past_participle": "TEST API",
+      "gerund": "TEST GERUND API",
+      "meaning": "otro test"
+    }
+  
+}

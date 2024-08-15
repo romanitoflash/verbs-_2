@@ -1,0 +1,21 @@
+meta {
+  name: Update Adjetive
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{baseURL}}api/adjetives/1
+  body: json
+  auth: none
+}
+
+body:json {
+   {
+    "Adjetivo_positivo" :"test s 3 dfsdfsd2",
+    "Comparativo": "test comparrtivo",
+    "Superlativo": "text comparativo",
+    "Traduccion": "aaaa adjetive update again again"
+    
+    }
+}

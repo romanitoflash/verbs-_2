@@ -1,0 +1,21 @@
+meta {
+  name: Create Adjetive
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseURL}}api/adjetives
+  body: json
+  auth: none
+}
+
+body:json {
+    {
+    "Adjetivo_positivo" :"test",
+    "Comparativo": "test comparrtivo",
+    "Superlativo": "text comparativo",
+    "Traduccion": "aaaa"
+    
+    }
+}
